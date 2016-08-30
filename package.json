@@ -1,0 +1,19 @@
+{
+  "name": "rss-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fancy-dev",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "chart.js": "^2.2.1",
+    "express": "^4.14.0",
+    "feed-read": "0.0.1",
+    "jquery": "^3.1.0",
+    "rss-finder": "^2.0.0"
+  }
+}

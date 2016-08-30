@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+
+
+<div class="container">
+    <div class="channels">
+        <div class="channels-head">
+            <h2>Список каналов</h2>
+            <div class="edit">Добавить новый       <span>+</span></div>
+            <div class="add">
+                <input type="text">
+                <button>добавить</button>
+            </div>
+        </div>
+        <div class="channels-item">http://dota2.ru/</div>
+        <div class="channels-item">https://tjournal.ru/</div>
+        <div class="channels-item">http://football.ua/</div>
+        <div class="channels-item">http://habrahabr.ru/</div>
+        <div class="channels-item">https://www.newscientist.com/</div>
+        <div class="channels-item">http://www.eurekalert.org/</div>
+    </div>
+    <div class="news-short">
+        <div class="short-news-head">
+            <h2>Список новостей</h2>
+            <div class="info-news">Колличество новостей <span></span></div>
+            <div class="info-authors">Колличество авторов <span></span></div>
+        </div>
+        <div class="news-short-item">
+
+        </div>
+    </div>
+    <div class="news-long">
+        <div class="news-long-head">
+            <h2>Выбранная новость</h2>
+        </div>
+        <div class="news-long-content">
+
+        </div>
+        <div class="read-next"><a href="#">Читать далее</a></div>
+    </div>
+    <div class="char">
+        <div class="char-head">
+            <h2>Диаграмма</h2>
+            <div class="info">Круговая диаграмма относительной частоты появления букв латинского алфавита в сообщении</div>
+        </div>
+        <div class="char-content">
+            <canvas id="myChart" width="400" height="400"></canvas>
+        </div>
+    </div>
+
+</div>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/chart.js/dist/Chart.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

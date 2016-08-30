@@ -1,0 +1,114 @@
+.container{
+    min-width: 1300px;
+    display: flex;
+    background-color: rgba(255,255,255, 0.9);
+    height: 100vh;
+    padding: 20px 0px;
+    padding-bottom: 0;
+    justify-content: space-around;
+    overflow: hidden;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/dragon_in_fly.jpg);
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+h2{
+    font-size: 20px;
+}
+
+.channels-item{
+    padding: 10px 20px;
+    background-color: rgba(41, 59, 107, 0.4);
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+.channels-item:hover{
+       background-color: rgba(41, 59, 107, 0.7);
+}
+.channels-item.active{
+    background-color: rgba(41, 59, 107, 1);
+    color:#fff;
+}
+.edit span{
+    margin-left: 82px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgba(41, 59, 107, 1);
+    color: #fff;
+}
+.edit {
+    padding: 10px 10px;
+    color: #000066;
+    cursor: pointer;
+    text-align: center;
+}
+input{
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height:0;
+    overflow: hidden;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.news-short-item>div{
+    max-width: 210px;
+    background-color: #fff;
+    margin-top:20px;
+    padding: 10px 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+.news-short-item>div.active{
+    background-color: rgba(41, 59, 107, 1);
+    color:#fff;
+}
+.news-short-item>div:hover{
+    background-color: rgba(41, 59, 107, 0.7);
+}
+.news-short-item {
+    max-height: calc(100vh - 120px);
+    overflow: scroll;
+}
+.info-news span, .info-authors span{
+    margin-left:10px;
+}
+.news-long-content{
+    max-width: 200px;
+}
+.read-next a{
+    width: 100px;
+    padding:10px 5px;
+    background-color: greenyellow;
+    display: none;
+}
+.read-next{
+    margin-top: 20px;
+    text-align: center;
+}
+.read-next a.active{
+    display: block;
+}
+.char-head{
+    max-width: 300px;
+}
+.char-content canvas{
+    width: 400px;
+    height: 400px;
+}
+.news-long-content img{
+    max-width:200px;
+    max-height:200px;
+}
